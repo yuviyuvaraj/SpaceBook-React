@@ -1,0 +1,68 @@
+section {
+  min-width: 30px;
+  
+
+}
+.Topbar {
+  display: flex;
+  background-color: blue;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo {
+  font-weight: bold;
+  color: white;
+  flex: 1;
+  font-size: xx-large;
+  margin-left: 20px;
+}
+.search {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  flex: 2;
+  margin: 20px;
+}
+.searchicon {
+  margin-left: 10px;
+}
+
+.searchbar {
+  border: none;
+  width: 100%;
+}
+
+input {
+  border-radius: 30px;
+}
+input:focus {
+  outline: none;
+}
+.links {
+  font-size: large;
+  flex: 1;
+  margin-left: 20px;
+}
+
+.notification {
+  flex: 1;
+  font-size: x-large;
+}
+sup {
+  color: black;
+  background-color: red;
+  font-size: small;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+.profile img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  flex: 1;
+  margin-right: 20px;
+}

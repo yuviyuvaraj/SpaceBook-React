@@ -1,0 +1,147 @@
+.Mainsection {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  gap: 20px;
+}
+.leftbar {
+  height: 100vh;
+  overflow-y: scroll;
+  position: sticky;
+}
+
+span {
+  margin-right: 10px;
+}
+.more {
+  margin-left: 30px;
+}
+.leftoptions {
+  margin: 10px;
+  margin-bottom: 10px;
+  font-size: large;
+}
+.friends {
+  display: flex;
+}
+.friends img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+/*  center */
+
+.centerbar {
+  margin-top: 20px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.postbox {
+  border-radius: 10px;
+  box-shadow: 10px 9px 10px 5px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 10px 9px 10px 5px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 10px 9px 10px 5px rgba(0, 0, 0, 0.63);
+}
+.throughts {
+  display: flex;
+  align-items: center;
+}
+.throughts img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  flex: 1;
+  margin-right: 20px;
+}
+.postoptions {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  justify-content: space-between;
+}
+.postoptions button {
+  width: 100%;
+  font-size: large;
+}
+.newsfeeds {
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 10px 9px 10px 5px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 10px 9px 10px 5px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 10px 9px 10px 5px rgba(0, 0, 0, 0.63);
+}
+.info {
+  display: flex;
+  column-gap: 10px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+.info img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  flex: 1;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.moreicon {
+  margin-left: 40%;
+}
+.feeds,
+img {
+  width: 100%;
+}
+/* RIGHT*/
+
+.Birthday img {
+  margin-top: 20px;
+  width: 50px;
+}
+.Birthday {
+  display: flex;
+}
+.birthdaynotification {
+  font-size: 20px;
+}
+.likes img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.likes {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+}
+.comments {
+  margin-left: 30%;
+}
+
+.Chats {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.Chats img {
+  margin-left: 10px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  flex: 1;
+  margin-right: 30px;
+}
+.chat {
+  box-shadow: 10px 9px 10px 5px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 10px 9px 10px 5px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 10px 9px 10px 5px rgba(0, 0, 0, 0.63);
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  .Mainsection {
+    display: flex;
+    flex-direction: column;
+  }
+}
